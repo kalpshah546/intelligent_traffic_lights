@@ -1,0 +1,15 @@
+# learning params
+learning_rate: 0.0003
+gamma: 0.95
+buffer_limit: 500000
+batch_size: 256
+sim_len: 1500
+mem_refill: 300
+epochs: 300
+n_cars: 400
+weights_path: "D:/Desktop/traffic_rl/intelligent_traffic_lights/model/dqn_177.pt"
+
+# SUMO params
+sumoBinary: "C:/Program Files (x86)/Eclipse/Sumo/bin/sumo.exe"
+sumoCmd: "D:/Desktop/traffic_rl/intelligent_traffic_lights/cfg/sumo_config.sumocfg"
+sumoTools: "C:/Program Files (x86)/Eclipse/Sumo/tools"
